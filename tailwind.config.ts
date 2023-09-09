@@ -13,7 +13,18 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      dropShadow: {
+        'text-shadow': '5px 5px 10px #000000',
+      }
     },
+    screens: {
+      xxs: '320px',
+      xs: '425px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1200px',
+    }
   },
   plugins: [],
 }
