@@ -15,7 +15,7 @@ export default function TitleSlide() {
   useEffect(() => {
     const scrollToContent = () => {
       window.scrollTo({
-        top: window.innerHeight, // Scroll by 100vh
+        top: window.innerHeight, // Scroll by 100vh 
         behavior: 'smooth',
       });
     };
